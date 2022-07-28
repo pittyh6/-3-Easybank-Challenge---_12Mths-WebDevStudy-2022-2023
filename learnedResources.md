@@ -8,7 +8,12 @@
 ## What I learned/used 
 ### Resources
 * learning
-   
+   * Important HTML tags for SEO [link](https://www.socialmediatoday.com/news/8-of-the-most-important-html-tags-for-seo/574987/)
+        * 1. Title tag: Title tags are used to set up those clickable headlines that you see in the SERP:
+            < title> bla bla bla bla bla</ title>
+        * 2. Meta description tag: Meta description tags are used to set up descriptions within search result snippets
+            < meta name="description" content=" bla bla bla bla bla bla bla bla">
+        * 3. 
 
 * Resources for Asking Questions
 
