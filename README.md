@@ -20,9 +20,9 @@
 
 
 
-## Previous Project
-* (1) 12Mths Web Development Study [link](https://github.com/pittyh6/1-12Mths-WebDevelopmentStudy-2022-2023)
-* (2) 12Mths Web Development Study [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023) (HTML, CSS, JS, ES6-ES2015, NPM, JQuery)
+## Previous Projects
+* (1 mth) 12Mths Web Development Study [link](https://github.com/pittyh6/1-12Mths-WebDevelopmentStudy-2022-2023)
+* (2 mth) 12Mths Web Development Study [link](https://github.com/pittyh6/2-12Mths-WebDevelopmentStudy-2022-2023) (HTML, CSS, JS, ES6-ES2015, NPM, JQuery)
 * (2 mth) 12Mths Web Development Study [link](https://github.com/pittyh6/JohnsHopkinsUni_html-css-and-Javascript-for-Web-Developers_2-12Mths-WebDevStudy-2022-2023) (Johns Hopkins Uni - HTML, CSS, JavaScript)
 * (2 mth) 12Mths Web Development Study [link](https://github.com/pittyh6/USP_Introduction-to-Software-Testing_12Mths-WebDevStudy-2022-2023) (USP - software Testing)
 * (2 mth) 12Mths Web Development Study [link](https://github.com/pittyh6/cypressIo_Testing-yr-first-application-12Mths-WebDevStudy-2022-2023) (Cypress - Cypress.io)
