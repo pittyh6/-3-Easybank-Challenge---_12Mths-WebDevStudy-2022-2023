@@ -8,7 +8,8 @@
 ## What I learned/used 
 ### Resources
 * learning
-   * Important HTML tags for SEO [link](https://www.socialmediatoday.com/news/8-of-the-most-important-html-tags-for-seo/574987/)
+    * HTML semantic elements: [link](https://www.w3schools.com/html/html5_semantic_elements.asp)
+    * Important HTML tags for SEO [link](https://www.socialmediatoday.com/news/8-of-the-most-important-html-tags-for-seo/574987/)
         * 1. Title tag: Title tags are used to set up those clickable headlines that you see in the SERP:
             < title> bla bla bla bla bla</ title>
         * 2. Meta description tag: Meta description tags are used to set up descriptions within search result snippets
@@ -21,9 +22,11 @@
         * 4. Image alt text: While the main goal of alt text is web accessibility, the SEO goal of the alt attribute is image indexing.
             * alt text tags : < img alt='bla bla bla '>
             * From an SEO perspective, alt text is a big part of how images are indexed in Google search. So if there is a visual component to what you do - be it the images of your products, your work, your stock images, your art - then you should definitely consider using image alt texts.
-            
+
 
 * Resources for Asking Questions
+    * 
+    * 
 
 
 ![End Banner](/Documentation/botton-1200x350.gif)
