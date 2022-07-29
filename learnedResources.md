@@ -12,6 +12,9 @@
     * Folder structure for web development: [link](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
     * What is the difference between SCSS and SASS ? [link](https://www.geeksforgeeks.org/what-is-the-difference-between-scss-and-sass/#:~:text=SASS%20(Syntactically%20Awesome%20Style%20Sheets,of%20the%20existing%20CSS%20syntax.)
     * sass [link](https://sass-lang.com/guide)
+    * sass basic [link](https://www.youtube.com/watch?v=Zz6eOVaaelI) understand sass in 20 min.
+    * FlexBox vs Grid [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
+    * flex box [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     * Important HTML tags for SEO [link](https://www.socialmediatoday.com/news/8-of-the-most-important-html-tags-for-seo/574987/)
         * 1. Title tag: Title tags are used to set up those clickable headlines that you see in the SERP:
             < title> bla bla bla bla bla</ title>
