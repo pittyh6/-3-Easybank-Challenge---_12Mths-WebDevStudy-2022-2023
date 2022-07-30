@@ -28,7 +28,7 @@ $font-weight-700: 700;
     margin:0;
 }
 html,body{
-    overflow: hidden;
+    // overflow: hidden;
     font-family:'Public Sans', sans-serif;
     font-size: 18px;
 }
@@ -46,18 +46,19 @@ a{
 .active{ 
     display: block !important;
 }
-.buttonReqInv>button{ 
-    display: none;
-}
+
 // -----------//------------//--------------//
 // Mobile version
 
 // *** Menu NavBar
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.navegation-bar{
+    background-color: $white;
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
     li{
         padding: 20px 0;
     }
@@ -69,6 +70,9 @@ a{
         order:1;
         cursor: pointer;
     }
+    .toggle>img{
+        transition: all 0.5s ease-out;
+    }
     .nav-item{
         order:2;
         background-color: $white;
@@ -76,7 +80,9 @@ a{
         text-align: center;
         width: 100%;
     }
-
+    .buttonReqInv>button{ 
+        display: none;
+    }
 }
 
     
@@ -86,4 +92,28 @@ a{
 // -----------//------------//--------------//
 // Desktop version
 // *** Menu NavBar
-    
+@media (min-width: 768px){
+    .navegation-bar{
+        .menu{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);  
+            
+            li>img{
+                grid-column: 1/2;
+            }
+            .nav-item{
+                display: block;
+                width: auto;
+
+                justify-content: center;
+            }
+            .buttonReqInv>.btnReqInv{ 
+                display: block;
+                grid-column: 3;
+            }
+            .toggle{
+                display: none;
+            }
+        }
+    }
+}
