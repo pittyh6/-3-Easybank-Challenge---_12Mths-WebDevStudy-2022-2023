@@ -28,6 +28,16 @@
         * 4. Image alt text: While the main goal of alt text is web accessibility, the SEO goal of the alt attribute is image indexing.
             * alt text tags : < img alt='bla bla bla '>
             * From an SEO perspective, alt text is a big part of how images are indexed in Google search. So if there is a visual component to what you do - be it the images of your products, your work, your stock images, your art - then you should definitely consider using image alt texts.
+        * 5. Schema markup: Schema markup is used to enhance regular SERP snippets with rich snippet features:
+            * The only best practice is to visit schema.org and see whether they’ve got any tags that can be applied to your types of pages.
+            < span property="propertyNameOrTypeYouWnt">....</ span>
+        * 6. HTML5 semantic tags: HTML5 elements are used for better descriptions of various page components:
+            * article - isolates a post from the rest of the code, makes it portable
+            * section - isolates a group of posts within a blog or a group of headings within a post
+            * aside - isolates supplementary content that is not part of the main content
+            * header - isolates the top part of the document, article, section, may contain navigation
+            * footer - isolates the bottom of the document, article, section, contains meta information
+            * nav - isolates navigation menus, groups of navigational elements
 
 
 * Resources for Asking Questions

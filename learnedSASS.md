@@ -6,8 +6,13 @@
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used 
-### CSS 
-* Cascading Style Sheets (CSS) 
+### SASS 
+* SASS Stylesheets  
+    * intall plugin
+        * Live Sass Compiler
+    * create sass file and generate the css file from the sass
+        * watch sass btn vscode
+    
    
 
 
