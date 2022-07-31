@@ -54,6 +54,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: $grayish-blue;
 }
 
 .active{ 
@@ -72,9 +73,26 @@ a{
 
 // -----------//------------//--------------//
 // Mobile version
-// *** Menu NavBar
-
-
+@media (max-width: 767px){
+    // *** Menu NavBar
+    .navegation-bar{
+        
+        .ul-menu{
+            text-align: center;
+            width: auto;
+            background-color: $white;
+            border-radius: 5px;
+            padding: 30px 0;
+        }
+        a{
+            display: block;
+            padding-bottom: 15px; 
+        }
+        .nav-item{
+            display: none;
+        }
+    }
+}
 
 
 
@@ -99,7 +117,6 @@ a{
             padding: 0 10px;
         }
         a{
-            color: $grayish-blue;
             &:hover{
                 color: $dark-blue;
                 padding-bottom: 20px;
