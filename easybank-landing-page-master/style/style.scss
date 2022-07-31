@@ -71,30 +71,12 @@ a{
     @include bgGradient;
 }
 
+
+
 // -----------//------------//--------------//
 // Mobile version
 @media (max-width: 767px){
-    // *** Menu NavBar
-    .navegation-bar{
-
-        .ul-menu{
-            text-align: center;
-            //width: auto;
-            background-color: $white;
-            border-radius: 5px;
-            padding: 30px 0;
-        }
-        a{
-            display: block;
-            padding-bottom: 15px; 
-        }
-        .nav-item{
-            display: none;
-        }
-        #toggle-img{
-            padding: 0;
-        }
-    }
+  
 }
 
 
@@ -102,40 +84,3 @@ a{
 
 
 
-// -----------//------------//--------------//
-// Desktop version
-@media (min-width: 768px){
-    // *** Menu NavBar
-    .navegation-bar{
-        background-color: $white;
-        .nav-menu{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 20px 0;
-            align-items: center;
-        }
-        .nav-item{
-            display: inline-block;
-            padding: 0 10px;
-        }
-        a{
-            &:hover{
-                color: $dark-blue;
-                padding-bottom: 20px;
-                background: linear-gradient(to right, $lime-green, $bright-cyan)
-                left
-                bottom
-                $white
-                no-repeat;
-                background-size: 100% 5px;;
-            }
-        }
-        .btnReqInv{ 
-            display: block;
-        }
-        .toggle{ 
-            display: none;
-        }
-    }
-}
