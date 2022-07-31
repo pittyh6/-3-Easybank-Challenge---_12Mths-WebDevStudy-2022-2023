@@ -76,10 +76,10 @@ a{
 @media (max-width: 767px){
     // *** Menu NavBar
     .navegation-bar{
-        
+
         .ul-menu{
             text-align: center;
-            width: auto;
+            //width: auto;
             background-color: $white;
             border-radius: 5px;
             padding: 30px 0;
@@ -90,6 +90,9 @@ a{
         }
         .nav-item{
             display: none;
+        }
+        #toggle-img{
+            padding: 0;
         }
     }
 }
