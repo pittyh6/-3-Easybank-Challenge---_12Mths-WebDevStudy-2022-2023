@@ -33,4 +33,39 @@ a {
 
 .active {
   display: block !important;
+}
+
+.btnReqInv {
+  display: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 400;
+  background-image: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+}
+
+@media (min-width: 768px) {
+  .navegation-bar {
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  .navegation-bar .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .navegation-bar .nav-item {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .navegation-bar a {
+    color: hsl(233deg, 26%, 24%);
+  }
+  .navegation-bar .btnReqInv {
+    display: block;
+  }
+  .navegation-bar .toggle {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
