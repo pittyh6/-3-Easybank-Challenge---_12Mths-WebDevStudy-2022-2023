@@ -59,17 +59,10 @@ a{
 .active{ 
     display: block !important;
 }
-
-// -----------//------------//--------------//
-// Mobile version
-
-// *** Menu NavBar
-
-
 //requestInvitationBtn
 .btnReqInv{ 
     display: none;
-    padding: 15px 20px;
+    padding: 15px 35px;
     border-radius: 40px;
     border: none;
     color: $white;
@@ -77,14 +70,21 @@ a{
     @include bgGradient;
 }
 
+// -----------//------------//--------------//
+// Mobile version
+// *** Menu NavBar
+
+
+
+
 
 
 
 
 // -----------//------------//--------------//
 // Desktop version
-// *** Menu NavBar
 @media (min-width: 768px){
+    // *** Menu NavBar
     .navegation-bar{
         background-color: $white;
         .nav-menu{
