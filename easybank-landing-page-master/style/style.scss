@@ -16,11 +16,24 @@ $grayish-blue: hsl(233, 8%, 62%);
 $light-grayish-blue: hsl(220, 16%, 96%);
 $very-light-gray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
+//gradient Color
+$gradientColorLimeToCyan: linear-gradient(to right, $lime-green, $bright-cyan);
+
 
 // variables font weight
 $font-weight-300: 300;
 $font-weight-400: 400;
 $font-weight-700: 700;
+
+
+// ^^^^^^^^^^^^^^^^^^^^ //
+//mixins
+@mixin bgGradient {
+    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+}
+
+
+// ^^^^^^^^^^^^^^^^^^^^ //
 
 *{//reset values
     box-sizing: border-box;
@@ -58,9 +71,10 @@ a{
     display: none;
     padding: 15px 20px;
     border-radius: 40px;
+    border: none;
     color: $white;
     font-weight: $font-weight-400;
-    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+    @include bgGradient;
 }
 
 
@@ -85,7 +99,17 @@ a{
             padding: 0 10px;
         }
         a{
-            color: $dark-blue;
+            color: $grayish-blue;
+            &:hover{
+                color: $dark-blue;
+                padding-bottom: 20px;
+                background: linear-gradient(to right, $lime-green, $bright-cyan)
+                left
+                bottom
+                $white
+                no-repeat;
+                background-size: 100% 5px;;
+            }
         }
         .btnReqInv{ 
             display: block;

@@ -39,6 +39,7 @@ a {
   display: none;
   padding: 15px 20px;
   border-radius: 40px;
+  border: none;
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
   background-image: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
@@ -60,7 +61,13 @@ a {
     padding: 0 10px;
   }
   .navegation-bar a {
+    color: hsl(233deg, 8%, 62%);
+  }
+  .navegation-bar a:hover {
     color: hsl(233deg, 26%, 24%);
+    padding-bottom: 20px;
+    background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%)) left bottom hsl(0deg, 0%, 100%) no-repeat;
+    background-size: 100% 5px;
   }
   .navegation-bar .btnReqInv {
     display: block;
