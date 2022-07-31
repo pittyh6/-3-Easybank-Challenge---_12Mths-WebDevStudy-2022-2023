@@ -38,6 +38,20 @@
             * header - isolates the top part of the document, article, section, may contain navigation
             * footer - isolates the bottom of the document, article, section, contains meta information
             * nav - isolates navigation menus, groups of navigational elements
+        * 7. Meta robots tag: Robots meta tag is all about the rules of engagement between the websites and the search engines.
+            * Best practices: Meta robots tag should be placed in the head section of the page code, and it should specify which crawlers it addresses and which instructions should be applied:
+            * Below are some of the parameters most commonly used with robots meta tags. You can use any number of them in a single meta robots tag, separated by a comma:
+                * noindex — page should not be indexed
+                * nofollow — links on the page should not be followed
+                * follow — links on the page should be followed, even if the page is not to be indexed
+                * noimageindex — images on the page should not be indexed
+                * noarchive — search results should not show a cached version of the page
+                * unavailable_after — page should not be indexed beyond a certain date.
+        * 8. Canonical tag: Canonical tag spares you from the risk of duplicate content:
+        * Best practices: To avoid potential SEO complications, apply the canonical tag to the following pages:
+            * Pages available via different URLs
+            * Pages with very similar content
+            * Dynamic pages that create their own URL parameters
 
 
 * Resources for Asking Questions
