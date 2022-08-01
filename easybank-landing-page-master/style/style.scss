@@ -80,7 +80,20 @@ a{
     .nav-item{
         order: 3;
         padding-right:20px;
+        a{
+            &:hover{
+                background:
+                    linear-gradient(to right, $lime-green,$grayish-blue) 
+                    left
+                    bottom
+                    $white
+                    no-repeat;
+                    background-size: 100% 5px;
+                    padding-bottom: 20px;
+            }
+        }
     }
+   
     .nav-toggle{
         order: 2;
         display:none;

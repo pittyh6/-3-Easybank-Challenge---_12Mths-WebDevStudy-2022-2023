@@ -62,6 +62,11 @@ a {
   order: 3;
   padding-right: 20px;
 }
+.nav-menu .nav-item a:hover {
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(233deg, 8%, 62%)) left bottom hsl(0deg, 0%, 100%) no-repeat;
+  background-size: 100% 5px;
+  padding-bottom: 20px;
+}
 .nav-menu .nav-toggle {
   order: 2;
   display: none;
