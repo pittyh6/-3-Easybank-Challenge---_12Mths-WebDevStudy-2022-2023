@@ -96,11 +96,14 @@ a{
 // Mobile version
 @media (max-width: 767px){
     .nav-menu{
+       position: absolute;
+       width: 100%;
         .nav-item{
             width: 100%;
             padding-bottom: 20px;
             text-align: center;
             display: none;
+            position: relative;
         }
         a{
             display: block;

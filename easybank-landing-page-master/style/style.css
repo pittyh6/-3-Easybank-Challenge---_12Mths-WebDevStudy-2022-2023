@@ -72,11 +72,16 @@ a {
 }
 
 @media (max-width: 767px) {
+  .nav-menu {
+    position: absolute;
+    width: 100%;
+  }
   .nav-menu .nav-item {
     width: 100%;
     padding-bottom: 20px;
     text-align: center;
     display: none;
+    position: relative;
   }
   .nav-menu a {
     display: block;
