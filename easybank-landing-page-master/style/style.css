@@ -88,8 +88,12 @@ a {
     display: none;
     position: relative;
   }
-  .nav-menu a {
+  .nav-menu .nav-item a {
     display: block;
+  }
+  .nav-menu .nav-item a:hover {
+    background: none;
+    padding-bottom: 0px;
   }
   .nav-menu .nav-toggle {
     display: block;

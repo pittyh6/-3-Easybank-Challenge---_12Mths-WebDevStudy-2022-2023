@@ -43,7 +43,6 @@ html,body{
 .container {
     padding: 0 10%;
 }
-
 ul{
     list-style: none;
 }
@@ -51,7 +50,6 @@ a{
     text-decoration: none;
     color: $grayish-blue;
 }
-
 .active{ 
     display: block !important;
 }
@@ -93,7 +91,6 @@ a{
             }
         }
     }
-   
     .nav-toggle{
         order: 2;
         display:none;
@@ -117,10 +114,16 @@ a{
             text-align: center;
             display: none;
             position: relative;
+            a{
+                display: block;
+                &:hover{
+                    background:
+                        none;
+                        padding-bottom: 0px;
+                }
+            }
         }
-        a{
-            display: block;
-        }
+        
         .nav-toggle{ 
            display: block;
            position: relative;
