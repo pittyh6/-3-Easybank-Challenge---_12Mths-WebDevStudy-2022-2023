@@ -59,14 +59,34 @@ a {
   padding-right: 10%;
 }
 .nav-menu .nav-item {
-  order: 2;
+  order: 3;
   padding-right: 20px;
 }
 .nav-menu .nav-toggle {
-  order: 3;
+  order: 2;
   display: none;
 }
 .nav-menu .nav-btn {
   order: 4;
   margin: auto;
+}
+
+@media (max-width: 767px) {
+  .nav-menu .nav-item {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    display: none;
+  }
+  .nav-menu a {
+    display: block;
+  }
+  .nav-menu .nav-toggle {
+    display: block;
+    position: relative;
+    left: 55%;
+  }
+  .nav-menu .nav-btn {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

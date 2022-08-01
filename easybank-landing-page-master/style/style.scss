@@ -78,11 +78,11 @@ a{
         padding-right: 10%;
     }
     .nav-item{
-        order: 2;
+        order: 3;
         padding-right:20px;
     }
     .nav-toggle{
-        order: 3;
+        order: 2;
         display:none;
     }
     .nav-btn{
@@ -95,7 +95,26 @@ a{
 // -----------//------------//--------------//
 // Mobile version
 @media (max-width: 767px){
-  
+    .nav-menu{
+        .nav-item{
+            width: 100%;
+            padding-bottom: 20px;
+            text-align: center;
+            display: none;
+        }
+        a{
+            display: block;
+        }
+        .nav-toggle{ 
+           display: block;
+           position: relative;
+           left: 55%;
+        }
+        .nav-btn{
+            display: none;
+        }
+    }
+    
 }
 
 
