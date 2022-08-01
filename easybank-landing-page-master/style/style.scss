@@ -65,7 +65,31 @@ a{
     font-weight: $font-weight-400;
     @include bgGradient;
 }
-
+.nav-menu{
+    background-color:$white;
+    .ul-menu{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .nav-logo{
+        order: 1;
+        padding-right: 10%;
+    }
+    .nav-item{
+        order: 2;
+        padding-right:20px;
+    }
+    .nav-toggle{
+        order: 3;
+        display:none;
+    }
+    .nav-btn{
+        order: 4;
+        margin: auto;
+    }
+}
 
 
 // -----------//------------//--------------//
