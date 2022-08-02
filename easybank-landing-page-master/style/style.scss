@@ -15,6 +15,7 @@ $very-light-gray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 //gradient Color
 $gradientColorLimeToCyan: linear-gradient(to right, $lime-green, $bright-cyan);
+$gradientColorLimeToDarkBlue: linear-gradient(to right, $lime-green, $dark-blue);
 // variables font weight
 $font-weight-300: 300;
 $font-weight-400: 400;
@@ -23,8 +24,11 @@ $font-weight-700: 700;
 
 // ^^^^^^^^^^^^^^^^^^^^ //
 //mixins
-@mixin bgGradient {
+@mixin bgGradientLight {
     background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+}
+@mixin bgGradientDark {
+    background-image: linear-gradient(to right, $lime-green, $dark-blue);
 }
 
 
@@ -71,7 +75,10 @@ a{
     border: none;
     color: $white;
     font-weight: $font-weight-400;
-    @include bgGradient;
+    @include bgGradientLight;
+    &:hover{
+        @include bgGradientDark;
+    }
 }
 .nav-menu{
     background-color:$white;
@@ -119,24 +126,23 @@ a{
     flex-wrap: wrap;
     background-color: $very-light-gray;
     position: relative;
-   
+    height: 650px;
     .next-generation-left{
         order: 1;
         width: 50%;
-        padding-top: 150px;
+        padding-top: 200px;
         padding-left: 150px;
     }
     .next-generation-right{
         order: 2;
         width:50%;
         background-image: url("../images/bg-intro-desktop.svg");
-        background-position: 6% 75%;
-        //background-size: auto;
+        background-position: 6% 40%;
         .img-phone-section-1{
-            width:45%;
+            width:50%;
             position: absolute;
             left: 61%;
-            bottom: -24%;
+            bottom: -20%;
             z-index: 0;
         }
     }

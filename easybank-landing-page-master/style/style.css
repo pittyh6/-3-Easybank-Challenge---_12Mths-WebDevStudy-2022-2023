@@ -55,6 +55,9 @@ a {
   font-weight: 400;
   background-image: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
 }
+.btn-req-inv:hover {
+  background-image: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(233deg, 26%, 24%));
+}
 
 .nav-menu {
   background-color: hsl(0deg, 0%, 100%);
@@ -95,24 +98,25 @@ a {
   flex-wrap: wrap;
   background-color: hsl(0deg, 0%, 98%);
   position: relative;
+  height: 650px;
 }
 .section-1 .next-generation-left {
   order: 1;
   width: 50%;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-left: 150px;
 }
 .section-1 .next-generation-right {
   order: 2;
   width: 50%;
   background-image: url("../images/bg-intro-desktop.svg");
-  background-position: 6% 75%;
+  background-position: 6% 40%;
 }
 .section-1 .next-generation-right .img-phone-section-1 {
-  width: 45%;
+  width: 50%;
   position: absolute;
   left: 61%;
-  bottom: -24%;
+  bottom: -20%;
   z-index: 0;
 }
 
