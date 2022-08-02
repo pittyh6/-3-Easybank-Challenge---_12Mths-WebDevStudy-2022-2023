@@ -48,6 +48,9 @@ html,body{
 .container {
     padding: 0 10%;
 }
+.container-fluid {
+    padding: 0;
+}
 h1{
     font-size: 60px;
     font-weight: $font-weight-300;
@@ -184,11 +187,12 @@ a{
     .section-1{
         position: relative;
         top: 85px;
-        height: 40rem;
+        //height: 40rem;
         .next-generation-left{
             order: 2;
             width: 100%;
             padding-top: 10px;
+            top: 50%;
         }
         .next-generation-right{
             order: 1;
