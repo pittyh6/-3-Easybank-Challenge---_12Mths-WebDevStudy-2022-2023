@@ -150,5 +150,25 @@ a {
   .section-1 {
     position: relative;
     top: 85px;
+    height: 40rem;
+  }
+  .section-1 .next-generation-left {
+    order: 2;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .section-1 .next-generation-right {
+    order: 1;
+    width: 100%;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+  }
+  .section-1 .next-generation-right .img-phone-section-1 {
+    width: 50%;
+    position: absolute;
+    left: 1%;
+    bottom: 60%;
+    z-index: 0;
   }
 }/*# sourceMappingURL=style.css.map */
