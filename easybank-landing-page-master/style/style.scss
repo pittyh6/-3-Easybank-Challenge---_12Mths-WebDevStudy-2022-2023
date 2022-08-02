@@ -125,30 +125,7 @@ a{
 }
 
 .section-1{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: $very-light-gray;
-    position: relative;
-    height: 650px;
-    .next-generation-left{
-        order: 1;
-        width: 50%;
-        padding-top: 200px;
-        padding-left: 150px;
-    }
-    .next-generation-right{
-        order: 2;
-        width:50%;
-        background-image: url("../images/bg-intro-desktop.svg");
-        background-position: 6% 40%;
-        .img-phone-section-1{
-            width:50%;
-            position: absolute;
-            left: 61%;
-            bottom: -20%;
-            z-index: 0;
-        }
-    }
+    
 }
 
 
@@ -185,29 +162,7 @@ a{
     }
     
     .section-1{
-        position: relative;
-        top: 85px;
-        //height: 40rem;
-        .next-generation-left{
-            order: 2;
-            width: 100%;
-            padding-top: 10px;
-            top: 50%;
-        }
-        .next-generation-right{
-            order: 1;
-            width: 100%;
-            background-image: url("../images/bg-intro-mobile.svg");
-            background-position: 0;
-            background-repeat: no-repeat;
-            .img-phone-section-1{
-                width:50%;
-                position: absolute;
-                left: 1%;
-                bottom: 60%;
-                z-index: 0;
-            }
-        }
+       
     }
     
 }
