@@ -126,8 +126,10 @@ a{
 
 .section-1{
     .container-full-width{
-     display: flex;
-     flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 150px;
     }
  }
 
@@ -167,6 +169,7 @@ a{
     .section-1{
        .container-full-width{
         flex-direction: column;
+        top: -150px;
        }
        .next-generation-left-bottom{
         order: 2;
