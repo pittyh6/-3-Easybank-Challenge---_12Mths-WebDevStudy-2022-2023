@@ -125,7 +125,8 @@ a{
 }
 
 .section-1{
-    .container-full-width{
+    .container{
+        background-color: $very-light-gray;
         display: flex;
         flex-direction: row;
         position: relative;
@@ -134,9 +135,18 @@ a{
  }
 
 
+
+
+
+
+
+
 // -----------//------------//--------------//
 // Mobile version
 @media (max-width: 767px){
+    body{
+        text-align: center;
+    }
     .nav-menu{
        position: absolute;
        width: 100%;
@@ -167,7 +177,7 @@ a{
     }
     
     .section-1{
-       .container-full-width{
+       .container{
         flex-direction: column;
         top: -150px;
        }
