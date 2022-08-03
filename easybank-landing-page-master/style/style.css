@@ -100,8 +100,6 @@ a {
 .section-1 .container-full-width {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 @media (max-width: 767px) {

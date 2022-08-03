@@ -8,8 +8,16 @@
 ## What I learned/used 
 ### CSS 
 * Cascading Style Sheets (CSS) 
-   
-
+    * flexbox
+        * display
+        * flex-direction
+            * row
+            * column
+        * flex-wrap
+        * flex-flow
+        * justify-content
+        * order
+        * 
 
 
 ![End Banner](/Documentation/botton-1200x350.gif)
