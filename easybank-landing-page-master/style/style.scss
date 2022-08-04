@@ -85,7 +85,7 @@ a{
 }
 .nav-menu{
     background-color:$white;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     width: 100%;
     .ul-menu{
@@ -125,14 +125,30 @@ a{
 }
 
 .section-1{
+    background-color: $bright-cyan;
     .container{
         background-color: $very-light-gray;
         display: flex;
         flex-direction: row;
         position: relative;
-        top: 150px;
+        //top: 103px;
+    
+        .next-generation-left-bottom{
+            .text-content{
+                position: relative;
+                top: 230px
+            }
+        }
+        .next-generation-right-top{
+            .img-phone-section-1{
+                position: relative;
+                //z-index: 1;
+                width: 150%;
+                top: 10px;
+            }
+        }
     }
- }
+}
 
 
 
@@ -165,7 +181,6 @@ a{
                 }
             }
         }
-        
         .nav-toggle{ 
            display: block;
            position: relative;
@@ -179,14 +194,22 @@ a{
     .section-1{
        .container{
         flex-direction: column;
-        top: -150px;
-       }
-       .next-generation-left-bottom{
-        order: 2;
-       }
-       .next-generation-right-top{
-        order: 1;
-       }
+        //top: -150px;
+            .next-generation-left-bottom{
+                order: 2;
+                .text-content{
+                    position: relative;
+                    top: 0
+                }
+            }
+            .next-generation-right-top{
+                order: 1;
+                .img-phone-section-1{
+                    width: 100%;
+                    top: -95px;
+                }
+            }
+        }
     }
     
 }
