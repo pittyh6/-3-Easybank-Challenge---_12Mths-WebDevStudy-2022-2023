@@ -53,7 +53,10 @@
             * Pages with very similar content
             * Dynamic pages that create their own URL parameters
 
+    * API REST
+        * what is : https://www.youtube.com/watch?v=lsMQRaeKNDk
 
+        
 * Resources for Asking Questions
     * 
     * 
