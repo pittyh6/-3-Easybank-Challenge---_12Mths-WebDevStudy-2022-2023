@@ -124,7 +124,14 @@ a {
 }
 .section-1 .container .next-generation-right-top .img-phone-section-1 {
   position: relative;
+  z-index: 1;
   width: 108%;
   top: 10px;
   left: 65px;
+}
+
+.section-2 {
+  background-color: hsl(220deg, 16%, 96%);
+  position: relative;
+  bottom: 120px;
 }/*# sourceMappingURL=style.css.map */

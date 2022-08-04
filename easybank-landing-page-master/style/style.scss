@@ -150,7 +150,7 @@ a{
             width:100%;
             .img-phone-section-1{
                 position: relative;
-                //z-index: 1;
+                z-index: 1;
                 width: 108%;
                 top: 10px;
                 left: 65px;
@@ -161,5 +161,7 @@ a{
 
 
 .section-2{
-    
+    background-color: $light-grayish-blue;
+    position: relative;
+    bottom: 120px
 }
