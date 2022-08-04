@@ -168,67 +168,6 @@ a{
 
 // -----------//------------//--------------//
 // Mobile version
-@media (max-width: 767px){
-    body{
-        text-align: center;
-    }
-    .nav-menu{
-       position: absolute;
-       width: 100%;
-        .nav-item{
-            width: 100%;
-            padding-bottom: 20px;
-            text-align: center;
-            display: none;
-            position: relative;
-            a{
-                display: block;
-                &:hover{
-                    background:
-                        none;
-                        padding-bottom: 0px;
-                }
-            }
-        }
-        .nav-toggle{ 
-           display: block;
-           position: relative;
-           left: 55%;
-        }
-        .nav-btn{
-            display: none;
-        }
-    }
-    
-    .section-1{
-       .container{
-        flex-direction: column;
-        padding: 0;
-        //top: -150px;
-            .next-generation-left-bottom{
-                order: 2;
-                width: 100%;
-                .text-content{
-                    position: relative;
-                    top: -75px;
-                }
-            }
-            .next-generation-right-top{
-                order: 1;
-                background-image: url("/easybank-landing-page-master/images/bg-intro-mobile.svg");
-                background-size: 100%;
-                background-position-x: 0;
-                background-position-y: 0;
-                .img-phone-section-1{
-                    width: 95%;
-                    top: -127px;
-                    left: 0;
-                }
-            }
-        }
-    }
-    
-}
 
 
 
