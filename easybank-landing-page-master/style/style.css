@@ -105,15 +105,28 @@ a {
   display: flex;
   flex-direction: row;
   position: relative;
+  padding-right: 0;
+}
+.section-1 .container .next-generation-left-bottom {
+  width: 85%;
 }
 .section-1 .container .next-generation-left-bottom .text-content {
   position: relative;
   top: 230px;
 }
+.section-1 .container .next-generation-right-top {
+  background-image: url("/easybank-landing-page-master/images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 60rem;
+  background-position-x: -60px;
+  background-position-y: -103px;
+  width: 100%;
+}
 .section-1 .container .next-generation-right-top .img-phone-section-1 {
   position: relative;
-  width: 150%;
+  width: 108%;
   top: 10px;
+  left: 65px;
 }
 
 @media (max-width: 767px) {
@@ -148,19 +161,26 @@ a {
   }
   .section-1 .container {
     flex-direction: column;
+    padding: 0;
   }
   .section-1 .container .next-generation-left-bottom {
     order: 2;
+    width: 100%;
   }
   .section-1 .container .next-generation-left-bottom .text-content {
     position: relative;
-    top: 0;
+    top: -75px;
   }
   .section-1 .container .next-generation-right-top {
     order: 1;
+    background-image: url("/easybank-landing-page-master/images/bg-intro-mobile.svg");
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
   }
   .section-1 .container .next-generation-right-top .img-phone-section-1 {
-    width: 100%;
-    top: -95px;
+    width: 95%;
+    top: -127px;
+    left: 0;
   }
 }/*# sourceMappingURL=style.css.map */
