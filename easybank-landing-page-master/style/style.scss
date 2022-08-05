@@ -51,10 +51,17 @@ html,body{
 .container-fluid {
     padding: 0;
 }
+h1, h2{
+    font-weight: $font-weight-300; 
+}
+h3{
+    font-weight: $font-weight-400; 
+}
 h1{
     font-size: 60px;
-    font-weight: $font-weight-300;
-    
+}
+h2{
+    font-size: 40px;
 }
 p{
     color: $grayish-blue;
@@ -163,5 +170,23 @@ a{
 .section-2{
     background-color: $light-grayish-blue;
     position: relative;
-    bottom: 120px
+    bottom: 120px;
+    .container{ 
+        padding-top:120px;
+        .easybank{
+            width:70%;
+            padding-bottom: 20px;
+        }
+        .easybank-service-description{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            div{
+                width: 20%;
+                .img-easybank-desc{
+                    padding-bottom: 25px;;
+                }
+            }
+        }
+    }
 }
