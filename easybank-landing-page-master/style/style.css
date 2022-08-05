@@ -195,4 +195,8 @@ a {
   height: 320px;
   background-color: hsl(0deg, 0%, 100%);
   padding: 0 20px;
+}
+
+.footer {
+  background-color: hsl(233deg, 26%, 24%);
 }/*# sourceMappingURL=style.css.map */
