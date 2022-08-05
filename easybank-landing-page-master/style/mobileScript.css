@@ -61,4 +61,17 @@
   .section-2 .container .easybank-service-description div {
     width: 100%;
   }
+  .latest-articles {
+    bottom: 0;
+  }
+  .latest-articles .container .article-content {
+    flex-flow: column;
+  }
+  .latest-articles .container .article-content div {
+    width: 100%;
+  }
+  .latest-articles .container .article-content div .card-content {
+    height: 250px;
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=mobileScript.css.map */
