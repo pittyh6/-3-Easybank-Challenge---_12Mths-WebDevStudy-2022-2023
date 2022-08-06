@@ -8,7 +8,7 @@
 * Online courses, challenges and creation of my own projects.
 
 ## What I learned/used (Link for details)
-* Projects [link](https://github.com/pittyh6/3-Easybank-Challenge_12Mths-WebDevStudy-2022-2023/tree/master/easybank-landing-page-master)
+* Projects [link](https://github.com/pittyh6/3-Easybank-Challenge_12Mths-WebDevStudy-2022-2023/tree/master/docs)
 * Resources [link](https://github.com/pittyh6/3-Easybank-Challenge_12Mths-WebDevStudy-2022-2023/blob/master/learnedResources.md)
 * CSS [link](https://github.com/pittyh6/Easybank-Challenge_3-12Mths-WebDevStudy-2022-2023/blob/master/learnedCSS.md)
 <!-- 
