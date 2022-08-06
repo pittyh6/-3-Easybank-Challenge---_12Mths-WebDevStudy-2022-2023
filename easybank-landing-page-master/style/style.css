@@ -178,6 +178,9 @@ a {
   padding-top: 100px;
   padding-bottom: 40px;
 }
+.latest-articles .container h3:hover {
+  color: hsl(192deg, 70%, 51%);
+}
 .latest-articles .container .article-content {
   display: flex;
   flex-flow: row wrap;
@@ -205,6 +208,9 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+.footer .container a:hover {
+  color: hsl(192deg, 70%, 51%);
 }
 .footer .container li {
   margin: 20px 0;

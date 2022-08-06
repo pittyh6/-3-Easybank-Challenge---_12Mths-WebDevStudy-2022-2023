@@ -205,6 +205,11 @@ a{
             padding-top: 100px;
             padding-bottom: 40px;
         }
+        h3{
+            &:hover{
+                color: $bright-cyan;
+            }
+        }
         .article-content{
             display: flex;
             flex-flow: row wrap;
@@ -234,6 +239,11 @@ a{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        a{
+            &:hover{
+                color: $bright-cyan;
+            }
+        }
         li{
             margin: 20px 0;
             a{
@@ -245,6 +255,7 @@ a{
             display: flex;
             flex-flow: column wrap;
             justify-content: space-around;
+           
             .logo-footer{
                 width: 75%;
                 align-self: left;
