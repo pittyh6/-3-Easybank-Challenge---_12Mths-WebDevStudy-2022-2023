@@ -201,7 +201,38 @@ a {
   background-color: hsl(233deg, 26%, 24%);
   padding: 50px 0;
 }
-.footer .container a {
+.footer .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.footer .container li {
+  margin: 20px 0;
+}
+.footer .container li a {
   color: hsl(0deg, 0%, 100%);
   font-weight: 400;
+}
+.footer .container .first-block {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+.footer .container .first-block .logo-footer {
+  width: 75%;
+  align-self: left;
+}
+.footer .container .first-block .social-media li {
+  display: inline;
+  margin: 0 7px;
+}
+.footer .container .first-block .social-media li img {
+  width: 35px;
+}
+.footer .container .fourth-block {
+  text-align: right;
+}
+.footer .container .fourth-block p {
+  font-size: 10px;
+  padding: 20px 0;
 }/*# sourceMappingURL=style.css.map */

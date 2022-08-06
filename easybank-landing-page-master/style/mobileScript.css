@@ -74,4 +74,22 @@
     height: 250px;
     margin-bottom: 25px;
   }
+  .footer .container {
+    flex-flow: column wrap;
+  }
+  .footer .container .first-block {
+    align-self: center;
+  }
+  .footer .container .first-block .logo-footer {
+    align-self: center;
+  }
+  .footer .container .first-block .social-media {
+    padding-top: 40px;
+  }
+  .footer .container .third-block {
+    margin-top: -15px;
+  }
+  .footer .container .fourth-block {
+    text-align: center;
+  }
 }/*# sourceMappingURL=mobileScript.css.map */

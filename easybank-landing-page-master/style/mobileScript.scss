@@ -87,4 +87,27 @@
             }
         }
     }
+
+    .footer{
+        .container{
+            flex-flow: column wrap;
+            .first-block{
+                align-self: center;
+                .logo-footer{
+                    align-self: center;
+                }
+                .social-media{
+                    padding-top: 40px;
+                   
+                }
+            }
+            .third-block{
+                margin-top:-15px;
+            }
+            .fourth-block{
+                text-align: center;
+            }
+            
+        }
+    }
 }
